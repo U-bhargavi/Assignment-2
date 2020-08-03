@@ -1,0 +1,69 @@
+1 Write programs on different variables?
+ ans:    1. Create a variable inside a function, with the same name as the global variable.
+ 
+      x = "punctual"
+
+      def myfunc():
+      x = "honestly"
+      print("Python is " + x)
+
+      myfunc()
+
+      print("Python is " + x)
+
+       output:
+           Python is honestly
+           Python is punctual
+
+    2. Create a variable outside of a function, and use it inside the function.
+      
+         x = "Excellent"
+
+         def myfunc():
+         print("Python is " + x)
+
+         myfunc()
+
+         output: 
+             python is excellent
+ 
+2. write a program on string concatination?
+  
+ ans:  a = "Hello"
+       b = "World"
+       c = a + b
+       print(c)
+
+   output: HelloWorld
+
+3 write a program on functions in python?
+
+ans:    split()	:  Splits the string at the specified separator, and returns a list
+  
+        program:         txt = "welcome to the jungle"
+
+                         x = txt.split()
+
+                         print(x)
+        output:
+
+             ['welcome', 'to', 'the', 'jungle']
+
+4. find the type of available datatypes in python?
+
+ ans:      Numeric, non-numeric and Boolean (true/false) data are the most used data types.
+
+5. write a program on if else condition in python?
+  
+  ans:     num = 3
+           if num >= 0:
+   
+           print("Positive or Zero")
+           
+else:
+    
+           print("Negative number")
+   output: 
+          Positive or Zero
+
+
